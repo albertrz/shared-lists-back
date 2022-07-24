@@ -16,11 +16,11 @@ pip install -r requirements.txt
 export MONGODB_URL="mongodb+srv://admin:1.1.1.1.1.@46.183.112.240:49156/lists?retryWrites=true&w=majority"
 
 # Start the service:
-uvicorn app:app --reload
+uvicorn app:app/app --reload
 ```
 
 (Check out [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) if you need a MongoDB database.)
 
 Now you can load http://localhost:8000 in your browser ... but there won't be much to see until you've inserted some data.
 
-If you have any questions or suggestions, check out the [MongoDB Community Forums](https://developer.mongodb.com/community/forums/)!
+If you have any questions or suggestions, check out the [MongoDB Community Forums](https://developer.mongodb.com/community/forums/)
